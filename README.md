@@ -1,1 +1,1 @@
-# mern-stack-backend
+# mern-stack
