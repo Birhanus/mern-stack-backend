@@ -17,7 +17,7 @@ app.use(express.json());
 
 //used to share resorce b/n backend and frontend
 app.use(cors({
-     origin: ["http://localhost:3000", "https://mern-stack-frontend.onrender.com"],
+     origin: ["http://localhost:3000", "https://mern-stack-frontend-pfkb.onrender.com"],
 })
        );
 
