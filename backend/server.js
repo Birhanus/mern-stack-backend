@@ -16,7 +16,10 @@ const app = express();
 app.use(express.json());
 
 //used to share resorce b/n backend and frontend
-app.use(cors());
+app.use(cors({
+     origin: ["http://localhost:3000", "https://mern-stack-frontend.onrender.com"],
+})
+       );
 
 // for url encoding
 app.use(express.urlencoded({extended: false}));
